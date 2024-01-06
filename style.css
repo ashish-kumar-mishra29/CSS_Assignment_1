@@ -1,0 +1,38 @@
+body {
+  background-color: #d8da3d;
+}
+h1 {
+  margin-top: 0px;
+  font-family: sans-serif;
+}
+p,
+h1 {
+  color: #80007e;
+}
+
+.left-container {
+    padding-top: 15px;
+    width: 15%;
+  }
+  
+/**---This CSS will applied on paragraph of left container----**/
+.left-container > p {
+  background-color: white;
+  padding: 2px;
+  margin: 10px;
+  border-right: 14px solid black;
+}
+/**-----This display property will display both the div Inline-----**/
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.right-container {
+  width: 85%;
+}
+
+hr {
+  margin-top: 50px;
+  border: 1px dotted #80007e;
+}
